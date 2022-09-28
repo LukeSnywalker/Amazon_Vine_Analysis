@@ -6,7 +6,7 @@ The purpose of this project is to analyze a database of video game reviews on Am
 
 ## Results
 
-In Vine_Review_Analysis.ipynb, a DataFrame was created that displayed the star ratings, numbers of helpful votes and total votes, and Vine or non-Vine status for each review in the video game review database. Throughout steps 1 to 4, this DataFrame was filtered to retrieve only the most helpful votes, and two new DataFrames were created, each containing either the Vine or the non-Vine reviews.
+In Vine_Review_Analysis.ipynb, PySpark was used to create a DataFrame that displayed the star ratings, numbers of helpful votes and total votes, and Vine or non-Vine status for each review in the video game review database. Throughout steps 1 to 4, this DataFrame was filtered to retrieve only the most helpful votes, and two new DataFrames were created, each containing either the Vine or the non-Vine reviews.
 
 The following methods were applied to retrieve the statistics below:
 ![The code used to retrieve the summary statistics](/step_five_code.png)
